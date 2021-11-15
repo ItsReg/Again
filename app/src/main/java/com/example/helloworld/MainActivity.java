@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.d(TAG, "onCreate: ");
+        Log.d(TAG, "for own branch loggggg ");
+
+        Log.d(TAG, "onCreate: dekhte hia pull k liye poochta hia ki nahi");
 
     }
 }
