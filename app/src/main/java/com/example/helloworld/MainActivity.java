@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "onCreate: ");
 
-        Log.d(TAG, "onCreate: to see diff");
-        Log.d(TAG, "onCreate: idk what to write");
+        Log.d(TAG, "Experimental branch");
 
     }
 }
