@@ -19,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "onCreate: dekhte hia pull k liye poochta hia ki nahi");
 
+        Log.d(TAG, "onCreate: to see diff");
+        Log.d(TAG, "onCreate: idk what to write");
+
     }
 }
