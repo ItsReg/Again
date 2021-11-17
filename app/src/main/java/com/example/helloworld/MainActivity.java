@@ -1,5 +1,7 @@
 package com.example.helloworld;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View root = binding.getRoot();
@@ -23,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
         binding.textHello.setText("View Binding use hua hia");
         Log.d(TAG, "onCreate: ");
-        Log.d(TAG, "from Experimental branch");
+
+        Log.d(TAG, "onCreate: to see diff");
+        Log.d(TAG, "onCreate: idk what to write");
 
     }
 }
